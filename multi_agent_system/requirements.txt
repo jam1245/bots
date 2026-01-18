@@ -1,0 +1,47 @@
+# Core LangChain/LangGraph
+# These are the foundational libraries for building the multi-agent system
+langchain==0.1.0
+langchain-anthropic==0.1.0
+langgraph==0.0.20
+langchain-community==0.0.13
+
+# LLM Provider
+# Anthropic's SDK for Claude API access (updated to be compatible with langchain-anthropic)
+anthropic>=0.16.0,<1.0.0
+
+# Utilities
+# python-dotenv: Load environment variables from .env files
+# pydantic: Data validation and structured outputs from LLMs
+# tomli: TOML parser for Python < 3.11 (built-in as tomllib in 3.11+)
+python-dotenv==1.0.0
+pydantic==2.5.0
+tomli==2.0.1; python_version < '3.11'
+
+# Web Search (for Research Agent)
+# tavily-python: Web search API for research agent
+# Alternative: duckduckgo-search (free, no API key required)
+tavily-python==0.5.4
+# duckduckgo-search==4.1.1  # Uncomment to use DuckDuckGo instead
+
+# Development & Testing
+# pytest: Testing framework
+# black: Code formatter
+# mypy: Static type checking
+pytest==7.4.0
+black==23.12.0
+mypy==1.7.0
+
+# Visualization (Optional)
+# graphviz: For visualizing the LangGraph workflow
+# Requires graphviz system package: https://graphviz.org/download/
+# graphviz==0.20.1  # Uncomment if you want graph visualization
+
+# Additional Utilities
+# rich: Pretty terminal output for better CLI experience
+rich==13.7.0
+
+# ============================================================================
+# Streamlit Learning UI
+# ============================================================================
+# streamlit: Web-based interactive UI for learning
+streamlit>=1.28.0

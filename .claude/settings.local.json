@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C \"C:/Users/john_/OneDrive/Data_Science/GitHub/bots\" log --oneline -10)",
+      "Bash(python:*)",
+      "Bash(pip install:*)",
+      "Bash(venvScriptspython.exe -m pip install --upgrade pip)",
+      "Bash(.venvScriptspython.exe -m pip install --upgrade pip)",
+      "Bash(./venv/Scripts/python.exe -m pip install:*)",
+      "Bash(../venv/Scripts/python.exe -c \"from langchain_anthropic import ChatAnthropic; from utils.config import get_model, validate_config; print\\(''✅ All critical imports successful!''\\)\")",
+      "Bash(../venv/Scripts/python.exe -c \"from langchain_anthropic import ChatAnthropic; print\\(''Import successful''\\)\")",
+      "Bash(../venv/Scripts/python.exe main.py \"Write a short haiku about Python programming\")",
+      "Bash(./venv/Scripts/python.exe -m pip uninstall:*)",
+      "Bash(./venv/Scripts/python.exe:*)",
+      "Bash(PYTHONIOENCODING=utf-8 ../venv/Scripts/python.exe:*)",
+      "Bash(tree:*)",
+      "Bash(venvScriptspip.exe install streamlit --quiet)",
+      "Bash(./venv/Scripts/pip.exe install:*)"
+    ]
+  }
+}

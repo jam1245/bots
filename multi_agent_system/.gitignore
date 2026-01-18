@@ -1,0 +1,148 @@
+# ============================================================================
+# Python
+# ============================================================================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# ============================================================================
+# Environment Variables & Secrets
+# ============================================================================
+# CRITICAL: Never commit API keys or secrets!
+.env
+.env.local
+.env.*.local
+*.key
+secrets.json
+credentials.json
+
+# TOML configuration files (may contain API keys)
+config.toml
+*.toml
+!pyproject.toml  # Exception: pyproject.toml is safe (Python project config)
+
+# ============================================================================
+# IDEs
+# ============================================================================
+# VSCode
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# ============================================================================
+# OS
+# ============================================================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# ============================================================================
+# Project Specific
+# ============================================================================
+# LangChain/LangGraph cache
+.langchain/
+.langgraph/
+
+# Agent logs and outputs
+logs/
+*.log
+agent_decisions.json
+state_history.json
+
+# Temporary test files
+temp/
+tmp/
+scratch/
+
+# Graph visualizations (can be large)
+*.png
+*.pdf
+*.svg
+!docs/*.png  # Keep documentation images
+
+# Development notes (if you keep personal notes in the repo)
+NOTES.md
+TODO.md
+personal/
